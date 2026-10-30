@@ -13,7 +13,7 @@
 <div class="grid">
 <div class="tile"><div class="label">SOLAR FLUX / SFI</div><div class="value" id="sfi">—</div><div class="unit">10.7 cm solar radio flux</div></div>
 <div class="tile"><div class="label">GEOMAGNETIC Kp</div><div class="value" id="kp">—</div><div class="unit">Planetary index / 0–9</div></div>
-<div class="tile"><div class="label">GEOMAGNETIC A</div><div class="value" id="a">—</div><div class="unit">Daily planetary A index</div></div>
+<div class="tile"><div class="label">GEOMAGNETIC A</div><div class="value" id="a">—</div><div class="unit">Previous UTC day A (derived)</div></div>
 <div class="tile"><div class="label">SOLAR X-RAY</div><div class="value" id="xray">—</div><div class="unit">GOES flare class</div></div>
 </div>
 <h2 style="color:var(--gold);font-size:19px;margin-top:30px">HF AMATEUR BANDS</h2>
@@ -26,6 +26,6 @@
 // Until that workflow is installed, all metrics remain unavailable rather than showing made-up values.
 fetch('./stats.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Stats not published yet');return r.json()}).then(d=>{
  for(const key of ['sfi','kp','a','xray']){const v=d[key];document.getElementById(key).textContent=v===null||v===undefined||v===''?'—':String(v)}
- document.getElementById('updated').textContent=d.updated_utc||'Not available';document.getElementById('status').textContent='Latest published measurements';
+ document.getElementById('updated').textContent=d.updated_utc||'Not available';document.getElementById('status').textContent=(d.errors&&d.errors.length)?'Partial data / check observation times':'Latest published measurements';
 }).catch(()=>{document.getElementById('status').textContent='Data feed not configured yet';});
 </script></body></html>
