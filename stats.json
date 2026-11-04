@@ -3,12 +3,12 @@
   "kp": 1.33,
   "a": 5,
   "xray": "B5.5",
-  "updated_utc": "2026-11-04 01:47 UTC",
+  "updated_utc": "2026-11-04 02:36 UTC",
   "observations": {
     "sfi": "2026-11-03T20:00:00 UTC",
     "kp": "2026-11-03T21:00:00 UTC",
     "a": "2026-11-03 UTC (derived from 8 three-hour a indices)",
-    "xray": "2026-11-04T01:44:00Z UTC"
+    "xray": "2026-11-04T02:32:00Z UTC"
   },
   "errors": []
 }
