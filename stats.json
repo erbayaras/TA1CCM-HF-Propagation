@@ -1,14 +1,14 @@
 {
   "sfi": 124,
-  "kp": 2.33,
+  "kp": 0.67,
   "a": 6,
-  "xray": "B8.7",
-  "updated_utc": "2026-11-06 05:45 UTC",
+  "xray": "B8.1",
+  "updated_utc": "2026-11-06 06:52 UTC",
   "observations": {
     "sfi": "2026-11-05T20:00:00 UTC",
-    "kp": "2026-11-06T00:00:00 UTC",
+    "kp": "2026-11-06T03:00:00 UTC",
     "a": "2026-11-05 UTC (derived from 8 three-hour a indices)",
-    "xray": "2026-11-06T05:42:00Z UTC"
+    "xray": "2026-11-06T06:49:00Z UTC"
   },
   "errors": []
 }
