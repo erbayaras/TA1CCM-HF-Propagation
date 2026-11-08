@@ -2,15 +2,13 @@
   "sfi": 127,
   "kp": 3.0,
   "a": 22,
-  "xray": "C3.1",
-  "updated_utc": "2026-11-08 09:33 UTC",
+  "xray": "C1.3",
+  "updated_utc": "2026-11-08 10:29 UTC",
   "observations": {
     "sfi": "2026-11-07T20:00:00 UTC",
     "kp": "2026-11-08T06:00:00 UTC",
     "a": "2026-11-07 UTC (derived from 8 three-hour a indices)",
-    "xray": "2026-11-08T08:34:00Z UTC"
+    "xray": "2026-11-08T10:26:00Z UTC"
   },
-  "errors": [
-    "X-ray: Expecting ',' delimiter: line 1 column 163590 (char 163589)"
-  ]
+  "errors": []
 }
