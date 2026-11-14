@@ -2,13 +2,15 @@
   "sfi": 119,
   "kp": 0.67,
   "a": 4,
-  "xray": "B6.6",
-  "updated_utc": "2026-11-13 23:29 UTC",
+  "xray": "B9.3",
+  "updated_utc": "2026-11-14 00:04 UTC",
   "observations": {
     "sfi": "2026-11-13T20:00:00 UTC",
     "kp": "2026-11-13T18:00:00 UTC",
-    "a": "2026-11-12 UTC (derived from 8 three-hour a indices)",
-    "xray": "2026-11-13T23:25:00Z UTC"
+    "xray": "2026-11-14T00:00:00Z UTC",
+    "a": "2026-11-12 UTC (derived from 8 three-hour a indices)"
   },
-  "errors": []
+  "errors": [
+    "A: complete prior UTC day unavailable"
+  ]
 }
