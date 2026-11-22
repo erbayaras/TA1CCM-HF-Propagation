@@ -2,15 +2,13 @@
   "sfi": 99,
   "kp": 0.0,
   "a": 6,
-  "xray": "B2.4",
-  "updated_utc": "2026-11-22 16:35 UTC",
+  "xray": "B2.2",
+  "updated_utc": "2026-11-22 17:32 UTC",
   "observations": {
     "sfi": "2026-11-21T20:00:00 UTC",
     "kp": "2026-11-22T12:00:00 UTC",
     "a": "2026-11-21 UTC (derived from 8 three-hour a indices)",
-    "xray": "2026-11-22T15:30:00Z UTC"
+    "xray": "2026-11-22T17:28:00Z UTC"
   },
-  "errors": [
-    "X-ray: Extra data: line 1 column 164099 (char 164098)"
-  ]
+  "errors": []
 }
