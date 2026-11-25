@@ -2,15 +2,13 @@
   "sfi": 87,
   "kp": 1.0,
   "a": 4,
-  "xray": "B1.4",
-  "updated_utc": "2026-11-25 22:43 UTC",
+  "xray": "B1.6",
+  "updated_utc": "2026-11-25 23:39 UTC",
   "observations": {
     "sfi": "2026-11-25T20:00:00 UTC",
     "kp": "2026-11-25T18:00:00 UTC",
     "a": "2026-11-24 UTC (derived from 8 three-hour a indices)",
-    "xray": "2026-11-25T21:42:00Z UTC"
+    "xray": "2026-11-25T23:36:00Z UTC"
   },
-  "errors": [
-    "X-ray: Unterminated string starting at: line 1 column 163612 (char 163611)"
-  ]
+  "errors": []
 }
